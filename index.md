@@ -9,7 +9,7 @@
 The surface of the Earth is a constantly changing landscape. Human activity such as urban development, agriculture, mining and geoengineering impacts Earth surface significantly. Currently, these changes can be observed from the Earth’s orbit using a multitude of sensors deployed on satellites like the Sentinel constellation. These satellites provide Earth observation information from multispectral sensors. This information can be used to determine land-use classes. These classes provide refined, useful information about a particular section of the Earth surface, which can be used to monitor changes occurring on the surface. 
 </div>
 &nbsp;
-<img title="a title" alt="Alt text" src="/img/autoencoder.png">
+<img title="Autoencoder" alt="Autoencoder" src="img/autoencoder.png" />
 
 &nbsp;
 
