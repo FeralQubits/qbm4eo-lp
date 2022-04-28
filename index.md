@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Welcome to QBM4EO
 
-You can use the [editor on GitHub](https://github.com/FeralQubits/qbm4eo-lp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Supervised quantum machine learning system for Earth land cover understanding.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### The solution 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div style="text-align: justify"> 
+The surface of the Earth is a constantly changing landscape. Human activity such as urban development, agriculture, mining and geoengineering impacts Earth surface significantly. Currently, these changes can be observed from the Earth’s orbit using a multitude of sensors deployed on satellites like the Sentinel constellation. These satellites provide Earth observation information from multispectral sensors. This information can be used to determine land-use classes. These classes provide refined, useful information about a particular section of the Earth surface, which can be used to monitor changes occurring on the surface. 
+</div>
+&nbsp;
+<img title="a title" alt="Alt text" src="/img/autoencoder.png">
 
-```markdown
-Syntax highlighted code block
+&nbsp;
 
-# Header 1
-## Header 2
-### Header 3
+### Description of the SOLUTION 
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+- In our solution, we will provide an algorithm, and its implementation, for training machine learning systems using quantum annealing devices (specific purpose quantum computers) for multilabel land-use classification. As a proof-of-concept, we will also provide pretrained models for a selected set of data. 
 
-**Bold** and _Italic_ and `Code` text
+- **The solution** — following the software-as-a-service model — will consist of a machine learning system deployed in the cloud, accessible by an API. 
 
-[Link](url) and ![Image](src)
-```
+- **The client** will be able to request the training of its model on the Sentinel-2 multispectral data they select and demand the land-use labels for a particular set of land patches.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- **The solution will** use the **D-Wave quantum annealer** during the training process. The annealer will be used in the most difficult part of the machine learning pipeline. Namely, in generation of the multispectral data representation and multilabel classification. 
 
-### Jekyll Themes
+- We aim to use a two-stage data transformation process. In the first stage, the data will be transformed from its natural representation into a binary sequence, which is more natural for quantum machines. This binary string should encode most of the relevant information about a hyperspectral data cube patch. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FeralQubits/qbm4eo-lp/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Consumer Needs
 
-### Support or Contact
+<div style="text-align: justify"> 
+QBM4EO could be a well-fitted solution to consumer needs in the Polish market. We have many problems in which EO analyses could be helpful. One of these is the effects of climate change, especially drought. For example, cumulative costs of drought in 2018 in Poland was assessed at about 2,6 billion PLN. The next problem is a lack of spatial plans. According to Statistic Poland, 42% of houses in Poland are built without a spatial plan and require special agreement. This phenomenon is the main obstacle in fluent progress in the Polish real estate market. We describe only a few main problems in which a developed solution could be helpful to solve these, but there are many other economic areas where QBM4EO could be used.
+</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+&nbsp;
+
+### Contact
+ qbm4eo@centrumetos.pl
